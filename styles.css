@@ -1,0 +1,202 @@
+* {
+  font-family: "Roboto";
+  margin: 0;
+}
+
+p {
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+/* Header */
+
+.containerHeader {
+  display: flex;
+  background-color: #002b36;
+  /* border: 1px solid yellow; */
+  height: 5vh;
+  /* flex-flow: row wrap; */
+  justify-content: flex-end;
+  align-content: flex-start;
+  column-gap: 1em;
+  row-gap: 1em;
+}
+
+.boxHeader {
+  width: 150px;
+  height: 30px;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 15px;
+}
+
+#header {
+  margin-right: auto; /* ca sa se mute headerLogo in stanga ca da, ma doare capu */
+}
+a {
+   /* background-color: yellow; */
+    color: #E5E7EB;
+}
+
+
+/* Post Header (partea cu desc. si poza) */
+
+.containerPostHeader {
+  display: flex;
+  background-color: #002b36;
+  color: #F9FAF8;
+  /* border: 1px solid green; */
+  height: 25vh;
+}
+
+.boxPostHeader {
+  width: 100%;
+  height: 25vh;
+  text-align: center; 
+}
+
+#description {
+  background-color: #002b36;
+}
+
+#postHeaderPara {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+button {
+  background-color: #3882F6;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  font-weight: 600;
+  color: whitesmoke;
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#postHeaderBG {
+  background-color: #002b36;
+  align-content: center;
+}
+
+#postHeaderImage {
+  height: 20vh;
+  width: auto;
+}
+
+
+/* Sectiunea Random Information (POZE) */
+
+.containerInformation {
+  display: flex;
+  /* border: 1px solid deeppink; */
+  height: 25vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.boxInformation {
+  font-size: 1em;
+  text-align: center;
+}
+
+
+.boxInformation > img {
+  width: 200px;
+  height: auto;
+  border: 4px solid #3882F6;
+  border-radius: 10px;
+}
+#informationHeader {
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #002a35;
+}
+
+
+/* Sectiunea Random Information (PARAGRAFE) */
+
+.containerParagraphInformation {
+  display: flex;
+  /* border: 1px solid deeppink; */
+  height: 10vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.infoPara {
+  /* background-color: yellow; */
+  font-size: 18px;
+  height: 200px;
+  width: auto;
+  margin-top: auto;
+}
+
+/* Sectiunea Quote */
+
+.containerQuote {
+display: flex;
+height: 30vh;
+background-color: #E5E7Eb;
+/* border: 1px solid blue; */
+justify-content: center;
+align-items: center;
+}
+
+#quote1Para {
+  color: #002a35;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  max-width: 700px;
+}
+
+ #authorQuote {
+  /* border: 1px solid red; */
+  height: 5vh;
+  align-self: flex-end;
+  margin-top: auto;
+}  
+
+/* Sectiunea Banner */
+
+.containerBanner {
+  display: flex;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid blue; */
+}
+
+.boxBanner {
+  flex: 1;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 800px;
+  background-color: #3882F6;
+  text-align: center;
+}
+#bannerPara {
+  margin-top: 25px;
+}
+#buttonLower {
+  align-self: flex-start;
+  margin-top: 15px;
+}
+
+/* Sectiunea Footer */
+
+.containerFooter {
+  display: flex;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #002b36;
+  color: #E5E7EB;
+}
