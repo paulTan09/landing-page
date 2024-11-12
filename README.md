@@ -1,5 +1,5 @@
 "# landing-page" 
-To see it, go to https://grosiniboss.github.io/landing-page/
+To see it, go to https://paultan09.github.io/landing-page/
 
 My take on The Odin Project's CSS Flexbox project. It's plain CSS + HTML, so that means no frameworks and no JS - hell, it doesn't even have event listeners tied to the buttons.
       I made this because I kind of ignored HTML and CSS while learning JavaScript, so I thought it'd be a good idea to start learning those 2 too. The project's still a bit janky, I would say (i.e some flex containers behave erratically when modifying the window aspect        ratio), but I think it's (mostly) good enough to push it. Besides, I do plan on fixing it (or building another bigger project with this one as a baseline).
